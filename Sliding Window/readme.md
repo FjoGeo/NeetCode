@@ -1,0 +1,2 @@
+## 121. Best Time to Buy and Sell Stock
+- __Solution 1__: create two pointers, l at the start, r at the next step. Calculate the price difference at the points. Increment r. If price at point l is higher than shift l all the way to to r.
