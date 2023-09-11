@@ -21,3 +21,12 @@
 ## 110. Balanced Binary Tree
 
 - Solution 1: create a nested function, that returns if the tree is balanced and the height. balance is given by actual height difference and a check for previous balance.
+
+
+
+## 100. Same Tree
+- Solution 1: DFS --> check for edge cases = non empty trees.  Selfrecursion moving both trees in the same direction and compare the return values.
+
+
+## 572. Subtree of Another Tree
+- Solution 1: helper function to detect same trees, where the whole subtree is compared. edge cases with empty trees. traverse tree recursively and compare if the tree is the same. comparison by helper function and moving along the tree with selfrecursion.
